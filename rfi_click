@@ -1,0 +1,8 @@
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'rfi_click',               // name of the event that's conducted by the user
+  click_text: 'Request Info',       // text of the CTA button that's clicked on (Call, Request Info, Apply, etc)
+  form_position: 'Footer'           // location of the modal found on site
+});
+</script>
